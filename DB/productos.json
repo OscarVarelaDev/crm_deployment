@@ -1,0 +1,6 @@
+{"_id":{"$oid":"6439d50da5ba70236d6a8b80"},"nombre":"Camisa Vue","precio":30,"imagen":"1dxLYS8KA.jpeg","__v":0}
+{"_id":{"$oid":"6439d5d9a5ba70236d6a8b82"},"nombre":"Camisa React","precio":30,"imagen":"15rEBLyR1.jpeg","__v":0}
+{"_id":{"$oid":"6439d5f1a5ba70236d6a8b84"},"nombre":"Camisa Redux","precio":30,"imagen":"GoZ_Kpk7i.jpeg","__v":0}
+{"_id":{"$oid":"6439d607a5ba70236d6a8b86"},"nombre":"Camisa NodeJs","precio":45,"imagen":"u6hAqXcpU.jpeg","__v":0}
+{"_id":{"$oid":"643d84e1aa3d3ba427954577"},"nombre":"Playera JavaScript","precio":30,"imagen":"GWdMsGgTI.jpeg","__v":0}
+{"_id":{"$oid":"643d8a67aa3d3ba4279954de"},"nombre":"Playera HTML","precio":30,"imagen":"M3Zcgp4Hg.jpeg","__v":0}

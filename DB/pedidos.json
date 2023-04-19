@@ -1,0 +1,4 @@
+{"_id":{"$oid":"643e0eaaf70ec096c6b949be"},"cliente":{"$oid":"643b55a4a3f119fe9afaa8ab"},"pedido":[{"cantidad":2,"_id":{"$oid":"6439d5d9a5ba70236d6a8b82"}},{"cantidad":3,"_id":{"$oid":"6439d607a5ba70236d6a8b86"}}],"total":195,"__v":0}
+{"_id":{"$oid":"643e0f81bf27c8617e9102ca"},"cliente":{"$oid":"643c0e5856cc4657431bffa7"},"pedido":[{"cantidad":3,"_id":{"$oid":"6439d607a5ba70236d6a8b86"}}],"total":135,"__v":0}
+{"_id":{"$oid":"643e28827544556d191f7a2c"},"cliente":{"$oid":"64390b02b528fc69bbde3fb4"},"pedido":[{"cantidad":3,"_id":{"$oid":"6439d5d9a5ba70236d6a8b82"}}],"total":90,"__v":0}
+{"_id":{"$oid":"643e29537544556d191f7f68"},"cliente":{"$oid":"64390b02b528fc69bbde3fb4"},"pedido":[{"_id":{"$oid":"643e29537544556d191f7f69"}}],"total":30,"__v":0}
