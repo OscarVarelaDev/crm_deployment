@@ -9,7 +9,9 @@ require('dotenv').config({ path: 'variables.env' })
 
 //conectar mongodb
 mongoose.Promise = global.Promise;
-mongoose.connect(process.env.DB_URL, {
+mongoose.connect(   "mongodb+srv://root:root@crm.sfoiujp.mongodb.net/?retryWrites=true&w=majority"
+    
+    , {
     useNewUrlParser: true,
 
 })
