@@ -12,9 +12,7 @@ const auth = require('../middleware/auth')
 module.exports = () => {
 
     /** Clientes */
-    router.get('/clientes',
-            auth,
-            clienteController.mostrarClientes)
+    router.get('/clientes',clienteController.mostrarClientes)
     router.post('/cliente/nuevo',
     
     clienteController.nuevoCliente)
@@ -26,7 +24,7 @@ module.exports = () => {
 
 
     router.get('/productos',
-        auth,
+       
     productosController.mostrarProductos)
 
     router.post('/producto/nuevoProducto',
@@ -46,7 +44,7 @@ module.exports = () => {
 
     router.get(
         '/pedidos/mostrarPedidos',
-        auth, pedidosController.mostrarPedidos)
+        pedidosController.mostrarPedidos)
 
     router.get('/pedido/mostrarPedido:idPedido', pedidosController.mostrarPedido)
 
