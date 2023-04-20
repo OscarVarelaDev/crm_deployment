@@ -9,9 +9,7 @@ require('dotenv').config({ path: 'variables.env' })
 
 //conectar mongodb
 mongoose.Promise = global.Promise;
-mongoose.connect(   "mongodb+srv://root:root@crm.sfoiujp.mongodb.net/?retryWrites=true&w=majority"
-    
-    , {
+mongoose.connect(   "mongodb+srv://root:root@crm.sfoiujp.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
 
 })
@@ -22,7 +20,7 @@ app.use(express.static('uploads'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-const whitelist = [process.env.FRONTEND_URL]
+const whitelist = "*"
 const corsOptions = {
     origin: (origin, callback) => {
         //revisar si la peticion viene de un servidor que esta en whitelist
