@@ -20,18 +20,6 @@ app.use(express.static('uploads'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-const whitelist = "*"
-const corsOptions = {
-    origin: (origin, callback) => {
-        //revisar si la peticion viene de un servidor que esta en whitelist
-        const existe = whitelist.some(dominio => dominio === origin)
-        if (existe) {
-            callback(null, true)
-        } else {
-            callback(new Error('No permitido por CORS'))
-        }
-    }
-}
 
 
 app.use(cors)
